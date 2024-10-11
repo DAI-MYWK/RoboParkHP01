@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RoboPark ランディングページ
 
-## Getting Started
+## プロジェクト概要
 
-First, run the development server:
+RoboParkは、革新的な駐車場予約サービスのランディングページです。家族連れのお客様向けに、週末のお出かけをより快適にするサービスを提供しています。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 使用コンポーネント
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+このプロジェクトでは、以下のコンポーネントを使用しています：
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Button**: ユーザーアクションのためのインタラクティブなボタン
+2. **Input**: 検索機能のためのテキスト入力フィールド
+3. **Card** と **CardContent**: 情報を整理して表示するためのカードコンポーネント
+4. **motion** と **AnimatePresence** (framer-motion): アニメーション効果の実装
+5. **Lucide Icons**: 視覚的な要素を追加するためのアイコンセット
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 主な機能
 
-## Learn More
+1. **レスポンシブデザイン**: モバイルからデスクトップまで、様々な画面サイズに対応
+2. **アニメーション**: スムーズな遷移とインタラクティブな要素
+3. **検索機能**: 目的地に基づいた駐車場検索
+4. **サービス説明**: RoboParkの使い方と利点を分かりやすく説明
+5. **CTA（行動喚起）**: ユーザーに即座の行動を促す戦略的に配置されたボタン
 
-To learn more about Next.js, take a look at the following resources:
+## 依存関係
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- React
+- Next.js
+- @radix-ui/react-icons
+- class-variance-authority
+- clsx
+- framer-motion
+- lucide-react
+- tailwindcss
